@@ -42,8 +42,4 @@ app.get('/api/video', (req, res) => {
 	res.sendFile(pathFile);
 })
 
-app.listen(4000, () => {
-  console.log('listening on port 4000');
-});	
-
 module.exports = app;
